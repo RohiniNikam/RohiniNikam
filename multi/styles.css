@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 50px 26px 90px;
+    align-items: center;
+    background-image: url("./img/back.png");
+}
+.headerRightSection{
+    display: flex;
+    gap: 114px;
+}
+.navLink{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color:#F7F7F7;
+}
+.heroButtonContainer{
+
+}
+.heroApp{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color:#F7F7F7;
+    margin-bottom: 17px;
+}
+.heroHeading{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+}
+.heroDescription{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #F7F7F7;  
+    margin-bottom: 54px; 
+}
+.heroButton{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color:#FFFFFF;
+    padding: 16px 50px;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    border-radius: 30px;
+    border: none;
+}
+.playStoreButton{
+    background: #FA4A0C;
+    margin-right: 34px;
+}
+.appStoreButton{
+    background: transparent;
+    border-radius: 30px;
+    color:black;
+}
+.phoneSelection{
+    padding: 600px 0 0 0;
+    position: relative;
+}
+.twoPhone{
+    position: absolute;
+    left:50%;
+    transform: translateX(50%);
+    top:130px;
+}
+.appWork{
+    border-top: 3px solid #E4E$E4;
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:600;
+    font-size:44px;
+    line-height:36px;
+    letter-spacing:0.1px;
+    color:#000000;
+    opacity:0.8;
+    text-align:center;
+    padding: 73px 0 59px;
+}
+.listItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 53px 161px 53px 245px;
+}
+.listItemHighlight{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:700;
+    font-size:24px;
+    line-height:36px;
+    letter-spacing:0.1px;
+    color:#FA4A0C;
+    margin-bottom: 17px;
+}
+.listItemHeading{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:700;
+    font-size:40px;
+    line-height:57px;
+    letter-spacing:0.2px;
+    color:#252B42;
+    margin-bottom: 27px;
+}
+.listItemDescription{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:500;
+    font-size:24px;
+    line-height:57px;
+    letter-spacing:0.2px;
+    color:#252B42;
+    margin-bottom: 27px;
+}
+.footerLogo{
+    padding: 53px 160px 66px 186px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerMiddle{
+    display: flex;
+    align-items: center;
+    gap:32px;
+}
