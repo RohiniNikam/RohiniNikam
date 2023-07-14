@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multipurpose Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<section>
+    <div class="col1">
+        <div class="logo"><img src="./img/logo1.PNG" alt=""></div>
+        <div class="detail">
+            <p class="bigtext">21+</p>
+            <p class="text">Pages</p>
+        </div>
+        <div class="detail">
+            <p class="bigtext">112+</p>
+            <p class="text">Blocks</p>
+        </div>
+
+    </div>
+    <div class="col2">
+        <img src="./img/trans.PNG" alt="">
+    </div>
+    <div class="col3">
+        <div class="page-1"><img src="./img/home-page1.PNG" alt="page-1"></div>
+        <div class="page-2"><img src="./img/home-page2.PNG" alt="page-2"></div>
+        <div class="page-3"><img src="./img/home-page3.PNG" alt="page-3"></div>
+
+    </div>
+</section>
+</body>
+</html>
+
