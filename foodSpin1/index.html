@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodSpin</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!--navbar-->
+    <nav>
+        <div class="nav__logo">
+          <a href="#"><img src="./images/logo.png" alt="logo" /></a>
+        </div>
+        <ul class="nav__links">
+          <li><a href="#">Breakfast</a></li>
+          <li><a href="#">Lunch</a></li>
+          <li><a href="#">Dinner</a></li>
+        </ul>
+        <div class="nav__shopper">
+          <a href="#">
+            <img
+              src="./images/logo2.png"
+              alt="shopper"
+              class="shopper"
+            />
+          </a>
+        </div>
+    </nav>
+
+    <div class="content">
+        <!--selected dish info-->
+        <div class="selected__dish__info">
+            <h2>$32</h2>
+            <h3>Green Goddess Chicken Salad</h3>
+            <p>
+            It is a non vegetarian salad which consists of the green goddess
+            dressing mixed with chicken, peppers, olives and celery.
+            </p>
+            <button class="selected__dish__info__order">Order Now</button>
+        </div>
+        <div class="spinner">
+            <!--food spinner background-->
+            <div class="spinner__container">
+                <!--food spinner wheel-->
+                <div class="spinner__wheel">
+                    <div class="spinner__dish" style="left: 558.4px;top: 278px;background-image: url(./images/image1.png);"></div>
+                    <div class="spinner__dish" style="left: 476.39px; top: 80.4101px; background-image: url(./images/image2.png);"></div>
+                    <div class="spinner__dish" style="left: 278.4px; top: -1.6px; background-image: url(./images/image3.png);"></div>
+                    <div class="spinner__dish" style="left: 80.4101px; top: 80.4101px; background-image: url(./images/image4.png);"></div>
+                    <div class="spinner__dish" style="left: -1.6px; top: 278.4px; background-image: url(./images/image5.png);"></div>
+                    <div class="spinner__dish" style="left: 80.4101px; top: 476.39px; background-image: url(./images/image1.png);"></div>
+                    <div class="spinner__dish" style="left: 278.4px; top: 558.4px; background-image: url(./images/image2.png);"></div>
+                    <div class="spinner__dish" style="left: 476.39px; top: 476.39px; background-image: url(./images/image3.png);"></div>
+                </div>
+            </div>
+            <img class="selected__dish__image" src="./images/image-spin-center.png" alt="center-image">
+            <!--arrow buttons-->
+            <div class="arrow__buttons">
+                <button class="shift__left" aria-label="Shift Left"></button>
+                <button class="shift__right" aria-label="Shift Right"></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
