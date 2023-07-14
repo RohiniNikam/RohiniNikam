@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Section-1 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 33px;
+    font-weight: 700;
+    padding: 27px 60px;
+    column-gap: 40px;
+}
+
+.Section-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 148px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+  font-size: large;
+  color: #21243d;  
+}
+.John_leftsection {
+    max-width: 506px;
+}
+
+.John_title {
+    font-family: "Heebo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243d;
+    margin-bottom: 40px;
+}
+
+.John_discription {
+    font-family: "Heebo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243d;
+    margin-bottom: 38px;
+}
+
+.John_button {
+    background: #ff6464;
+    border-radius: 2px;
+    padding: 12px;
+    border: 0;
+    color: white;
+    margin: 33px;
+}
+
+.John_img {
+    width: 243px;
+    height: 243px;
+    /* padding: 0 149px; */
+}
+
+.Section-3 {
+    background: #edf7fa;
+}
+
+.recentposts {
+    max-width: 1440px;
+    margin: 0 auto 0;
+    padding: 0 148px;
+}
+
+.recent_view {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recent_view_LEFT {
+    font-family: "Heebo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+}
+
+.recent_view_RIGHT {
+    margin-top: 27px;
+    text-decoration: none;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.cards>div {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250 0.5);
+    border-radius: 4px;
+    padding: 24px 22px;
+}
+
+.cardheading {
+    font-family: "Heebo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243d;
+    margin: 24px;
+}
+
+.cardcontent {
+    font-family: "Heebo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243d;
+    margin: 24px;
+}
+
+.carddescription {
+    font-family: "Heebo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243d;
+    margin: 24px;
+}
+
+.Section-4 {
+    max-width: 1440px;
+    margin: 15px auto 0;
+    padding: 0 148px 32px;
+}
+.featuresheading{
+    color: var(--dark-color, #21243D);
+    font-size: 22px;
+    font-family: Heebo;
+    line-height: 60px;
+
+}
+.list {
+    list-style-type: none;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.listitem {
+    display: flex;
+    gap: 18px;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 29px 0 15px;
+}
+
+.listheading {
+    margin-bottom: 16px;
+    font-family: "heebo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243d;
+}
+
+.listdetails {
+    margin-bottom: 17px;
+    display: flex;
+    align-items: center;
+}
+
+.year {
+    padding: 0 10px;
+    background-color: #142850;
+    border-radius: 16px;
+    font-family: "heebo";
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+    margin-right: 36px;
+}
+
+.FWpara {
+    font-family: "heebo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243d;
+}
+
+.Section-5 {
+    display: flex;
+    align-items: center;
+    margin: 134px 0 54px;
+    flex-direction: column;
+    gap: 26px;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 21px;
+    color: #21243d;
+}
+
+.footer-img {
+    display: flex;
+    gap: 35px;
+}
+
+@media (max-width: 1024px) {
+    .Section-2 {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .John-leftsection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .John_title {
+        text-align: center;
+    }
+
+    .John_description {
+        text-align: center;
+    }
+
+    .recentposts {
+        padding: 0 10px;
+    }
+
+    .recent_view {
+        justify-content: center;
+    }
+
+    .recent_view_RIGHT {
+        display: none;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .Section-4 {
+        padding: 0 10px;
+    }
+
+    .listleftsection {
+        width: 100%;
+        aspect-ratio: 41/30;
+    }
+
+    .listleftsection>img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .listitem {
+        flex-direction: column;
+    }
+}
+@media (max-width: 768px) {
+    .Section-2 {
+        padding: 0 20px;
+    }
+
+    .John_img {
+        width: fit-content;
+    }
+
+    .John_leftsection {
+        width: 100%;
+    }
+
+    .John_title {
+        font-size: 32px;
+        max-width: 100%;
+        line-height: 30px;
+    }
+
+    .John_discription {
+        font-size: 16px;
+    }
+
+    .recent_view_LEFT {
+        font-size: 18px;
+    }
+
+    .cardheading {
+        font-size: 22px;
+    }
+
+    .cardcontent {
+        font-size: 16px;
+    }
+
+    .carddescription {
+        font-size: 16px;
+    }
+
+    .featuresheading {
+        font-size: 18px;
+    }
+
+    .listheading {
+        font-size: 26px;
+    }
+
+    .year {
+        font-size: 14px;
+    }
+
+    .listdetails {
+        font-size: 18px;
+        justify-content: space-between;
+    }
+
+    .FWpara {
+        font-size: 12px;
+    }
+
+    .footer-disclaimer {
+        border-color: #edf7fa;
+    }
+}

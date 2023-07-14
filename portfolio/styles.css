@@ -1,0 +1,220 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header{
+    display:flex;
+    justify-content: flex-end;
+    gap:35px;
+    padding:27px 60px;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 148px;
+}
+.heroTitle{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    margin-bottom: 40px;
+}
+.heroDescription{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    margin-bottom: 38px;
+}
+.heroButton{
+    background: #FF6464;
+    border-radius: 2px;
+    border: none;
+    padding: 12px 20px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.recentPosts{
+    max-width:1440px;
+    margin: 0 auto 0;
+    background: #EDF7FA;
+    padding: 0 148px;
+}
+.recentPostsHeading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.recentPostsTitle{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+}
+.cardsContainer{
+    display: flex;
+    gap:20px;
+} 
+.card{
+    background: #FFFFFFF;
+    box-shadow:0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius:4px;
+    padding: 24px 22px;
+}   
+.cardHeading{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color:#21243D;
+    margin-bottom: 17px;
+}
+.cardDetails{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color:#21243D;
+    margin-bottom: 11px;
+
+}
+.cardDescription{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color:#21243D;
+
+}
+.features{
+    max-width: 1440px;
+    margin:15px auto 0;
+    width: 152px
+    height: 60px
+    top: 1006px
+    left: 148px
+    
+}
+.list{
+    list-style-type: none;
+}
+.listItem{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    border-bottom: 1px solid #E0E0E0;
+    padding: 29px 0 15px;
+}
+.listHeading{
+    margin-bottom: 16px;
+    width: 337px;
+height: 44px;
+top: 1312px;
+left: 410px;/////////
+
+
+}
+.listDetails{
+    margin-bottom: 17px;
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+.listTag{
+    padding: 0 10px;
+    background: #142850;
+    border-radius: 16px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    color:#FFFFFF;
+    margin-right: 36px;
+}
+.listType{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color:#8695A4;
+}
+.listDescription{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color:#21243D;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    margin-top: 134px 0 54px;
+    flex-direction: column;
+    gap: 26px;
+    text-align: center;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color:#21243D;
+
+}
+.socialLinks{
+    display: flex;
+    gap:35px;
+}
+
+@media {max-width: 1024px}{
+    .hero{
+        flex-direction: column-reverse;
+    }
+    .heroLeftSection{
+        display: flex;
+        flex-direction: column*;
+        align-items: center;
+    }
+    .heroTitle{
+        text-align: center;
+    }
+    .heroDescription{
+        text-align: center;
+    }
+    .recentPosts{
+        padding: 0 10px;
+    }
+    .recentPostsHeading{
+        display: none;
+        justify-content: center;
+    }
+    .features{
+        padding: 0 10px;
+    }
+    .cardsContainer{
+        flex-direction: column;
+    }
+    .listItem{
+        flex-direction: column;
+    }
+    .listLeftSection{
+        width: 100%;
+        aspect-ratio: 41/30;
+    }
+}
