@@ -1,0 +1,386 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: fit-content;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 50px 26px 90px;
+    align-items: center;
+}
+
+.desktop_view {
+    display: flex;
+    gap: 114px;
+}
+
+.navlink {
+    font-family: 'Montoserret';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252842;
+}
+
+.navlink:hover {
+    color: #FA4A0C;
+}
+
+.mobile_view {
+    display: none;
+}
+
+.don {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../Live-Design-2/Img-LD2/Rectangle\ 48.png);
+    padding: 73px 0 146px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.donApp {
+    color: #F6F6F6;
+    text-align: center;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    margin-bottom: 17px;
+}
+
+.donHeading {
+    color: #FFF;
+    text-align: center;
+    font-size: 58px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    margin-bottom: 17px;
+    width: 937px;
+    height: 160px;
+}
+
+.donDescription {
+    color: #F6F6F6;
+    text-align: center;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    margin-bottom: 48px;
+
+}
+
+.donButtonContainer {
+    display: flex;
+    gap: 35px;
+}
+
+.PlayStore {
+    padding: 16px 50px;
+    color: var(--light-text, #FFF);
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    border-radius: 30px;
+    background: #FA4A0C;
+    box-shadow: 0px 10px 30px 0px;
+    border: none;
+}
+
+.AppStore {
+    padding: 16px 50px;
+    color: #FFF;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    border-radius: 30px;
+    border: 1px solid #FFF;
+    background-color: transparent;
+    box-shadow: 0px 10px 30px 0px;
+}
+
+.twoPhone {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: -130px;
+}
+
+.phoneSection {
+    padding: 600px 0 0 0;
+    position: relative;
+}
+
+.appUpperLine {
+    color: rgba(228, 228, 228, 1);
+    border: 2px solid;
+    margin: 0 278px 72px;
+}
+
+.listitemleft {
+    width: 269px;
+    height: 525px;
+}
+
+.appWork {
+    color: #000;
+    font-size: 44px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.listitem {
+    display: flex;
+    justify-content: space-between;
+    margin: 150px 250px 0;
+    gap: 170px;
+}
+
+.listitemhighlight {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FA4A0C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 17px;
+
+}
+
+.listitemheading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 27px;
+}
+
+.listitemdescription {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 53px 160px 66px 186px;
+}
+
+.footermiddle {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.howtosection {
+    width: fit-content;
+
+}
+
+.footercopyright {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: 0.1px;
+    color: #5C5C5C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.downloadsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./img/back.png);
+    padding: 145px 0 131px;
+    margin-top: 110px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.downloadheading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+}
+
+.downloaddescription {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #F7F7F7;
+    margin-bottom: 54px;
+}
+
+.downloadbuttoncontainer {
+    display: flex;
+    gap: 20px;
+}
+
+.downloadplaystore {
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    border-radius: 10px;
+    background: #FA4A0C;
+    padding: 15px 30px;
+    color: #FFFFFF;
+    box-shadow: 0px 10px 30px 0px;
+}
+
+.downloadappstore {
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    background-color: transparent;
+    box-shadow: 0px 10px 30px 0px;
+}
+
+@media (max-width:1290px) {
+    .header {
+        padding: 17px 24px 17px;
+        justify-content: space-between;
+        margin: 0 50px;
+    }
+
+    .desktop_view {
+        display: none;
+    }
+
+    .mobile_view {
+        display: block;
+
+    }
+
+    .listitem {
+        padding: 65px 38px;
+        gap: 54px;
+        text-align: center;
+    }
+
+    .howtosection-1,
+    .howtosection-2,
+    .howtosection-3 {
+        border: 5px solid gray;
+        margin: 100px;
+        padding: 0;
+    }
+
+    .listitem {
+        width: max-content;
+        margin-top: 50px;
+    }
+
+    .listitemhighlight {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:845px) {
+    .header {
+        display: flex;
+        align-items: center;
+        margin: 0 0px 0 px;
+
+    }
+
+    .phonesection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 100px;
+    }
+
+    .listitem {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 0;
+    }
+
+    .listitemright {
+        width: 500px;
+    }
+
+    .headerrightsection {
+        gap: 100px;
+    }
+
+    footer {
+        display: flex;
+    }
+
+    .appwork {
+        margin-left: 10%;
+    }
+
+
+}
